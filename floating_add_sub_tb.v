@@ -25,7 +25,7 @@ iteration (32'h4201_51EC,32'h4242_147B,32'h42A1_B333,`__LINE__); //32.33 + 48.52
 
 iteration (32'h4068_51EC,32'h4090_A3D7,32'h4102_6666,`__LINE__); //3.63 + 4.52 = 8.15.
 
-iteration (32'h4195_0A3D,32'h419B_47AE,32'h4218_28F6,`__LINE__); //18.63 + 19.41 = 38.04.
+iteration (32'h4195_0A3D,32'h419B_47AE,32'h4218_28F5,`__LINE__); //18.63 + 19.41 = 38.04.
 
 iteration (32'h4217_999A,32'h3F8C_CCCD,32'h421C_0000,`__LINE__); //37.9 + 1.1 = 39.
 
@@ -33,7 +33,7 @@ iteration (32'h4383_C7AE,32'h4164_F5C3,32'h438A_EF5C,`__LINE__); //263.56 + 14.3
 
 iteration (32'h4542_77D7,32'h453B_8FD7,32'h45BF_03D7,`__LINE__); //3111.49 + 3000.99 = 6112.48
 
-iteration (32'h3F3A_E148,32'h3EB33333,32'h3F8A_3D71,`__LINE__); //0.73 + 0.35 = 1.08.
+iteration (32'h3F3A_E148,32'h3EB33333,32'h3F8A_3D70,`__LINE__); //0.73 + 0.35 = 1.08.
 
 iteration (32'h3F7D_70A4,32'h3F7D_70A4,32'h3FFD_70A4,`__LINE__); //0.99 + 0.99 = 1.98
 
@@ -42,7 +42,7 @@ iteration (32'h3F40_0000,32'h3E94_7AE1,32'h3F85_1EB8,`__LINE__); //0.75 + 0.29 =
 iteration (32'h4B7F_FFFF,32'h3F80_0000,32'h4B80_0000,`__LINE__); //16777215 + 1 = 16777216
 								 // Corner Case
 
-iteration (32'h4B7F_FFFF,32'h4000_0000,32'h4B80_0001,`__LINE__); //16777215 + 2 = 16777217.
+iteration (32'h4B7F_FFFF,32'h4000_0000,32'h4B80_0000,`__LINE__); //16777215 + 2 = 16777217.
 								 // Corner Case
 
 iteration (32'h4B7F_FFFF,32'h4B7F_FFFF,32'h4BFF_FFFF,`__LINE__); //16777215 + 16777215 = 33554430
@@ -50,9 +50,9 @@ iteration (32'h4B7F_FFFF,32'h4B7F_FFFF,32'h4BFF_FFFF,`__LINE__); //16777215 + 16
 
 iteration (32'h4B7F_FFFE,32'h3F80_0000,32'h4B7F_FFFF,`__LINE__); //16777214 + 1 = 16777215
 
-iteration (32'hBF3A_E148,32'h3EC7_AE14,32'hBEAE_147B,`__LINE__); //-0.73 + 0.39 = -0.34
+iteration (32'hBF3A_E148,32'h3EC7_AE14,32'hBEAE_147C,`__LINE__); //-0.73 + 0.39 = -0.34
 
-iteration (32'hC207_C28F,32'h4243_B852,32'h416F_D70A,`__LINE__); //-33.94 + 48.93 = 14.99
+iteration (32'hC207_C28F,32'h4243_B852,32'h416F_D70C,`__LINE__); //-33.94 + 48.93 = 14.99
 
 iteration (32'hBDB2_2D0E,32'h4305_970A,32'h4305_80C5,`__LINE__); //-0.087 + 133.59 = 133.503
 
